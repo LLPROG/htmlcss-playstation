@@ -1,7 +1,7 @@
 /* reset */
 
 [class*="col"] {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 a {
@@ -15,7 +15,6 @@ a {
     border-radius: 30px;
     border: transparent;
     color: white;
-
 }
 
 .butn-blue {
@@ -28,6 +27,14 @@ a {
 
 h1 {
     font-size: 45px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+img {
+    width: 100%;
 }
 
 
@@ -71,4 +78,22 @@ header a {
     width: 300px;
 
     margin-top: 15rem;
+}
+
+
+/* playstation content */
+
+/* cards */
+
+.play-content img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* news */
+
+/* console */
+
+.thumbs .col {
+    padding: 4rem;
 }
