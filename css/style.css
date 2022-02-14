@@ -1,0 +1,42 @@
+/* reset */
+
+[class*="col"] {
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* style */
+
+/* header */
+
+header .logo-sony {
+    background-color: black;
+}
+
+header .logo-sony img {
+    width: 100px;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+header .right-nav {
+    list-style: none;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+
+}
+
+header .right-nav li {
+    display: inline-block;
+
+}
+
+header a {
+    color: black;
+
+}
