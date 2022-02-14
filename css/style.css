@@ -25,18 +25,16 @@ header .logo-sony img {
 
 header .right-nav {
     list-style: none;
-    margin-right: auto;
-    position: absolute;
-    right: 0;
-
-}
-
-header .right-nav li {
-    display: inline-block;
-
 }
 
 header a {
     color: black;
+}
 
+/* hero */
+
+.hero {
+    margin-top: 114px;
+    height: 500px;
+    background-image: url(../img/jumbo-bg.png);
 }
