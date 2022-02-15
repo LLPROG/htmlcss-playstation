@@ -26,11 +26,11 @@ a {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 img {
@@ -85,8 +85,8 @@ header a {
 
 /* cards */
 
-.play-content img {
-    width: 100%;
+.play-content img,
+.release img {
     border-radius: 15px;
 }
 
@@ -95,5 +95,25 @@ header a {
 /* console */
 
 .thumbs .col {
-    padding: 4rem;
+    padding: 1rem 2rem;
+}
+
+/* takes two */
+
+.takes-two {
+
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.takes-two img {
+    width: 200px;
+}
+
+/* release */
+
+.release {
+    background-color: #1F1F1F;
 }
