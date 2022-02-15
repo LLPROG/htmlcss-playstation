@@ -187,3 +187,33 @@ header a {
         padding: 0 8rem;
     }
 }
+
+
+/* footer */
+
+footer {
+    background-color: #00439C;
+}
+
+footer .logo-footer {
+    width: 20%;
+}
+
+footer .language-globe {
+    width: 20px;
+}
+
+footer ul a {
+    color: white;
+    margin-left: 1.8rem;
+    margin-bottom: 0.8rem;
+}
+
+footer .logo-sie {
+    width: 20%;
+}
+
+footer .underline {
+    text-decoration: underline;
+    color: white;
+}
