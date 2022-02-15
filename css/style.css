@@ -25,12 +25,21 @@ a {
     background-color: #CD3D0F;
 }
 
+.butn-gray {
+    background-color: #D9DADC;
+    color: blue;
+}
+
 h1 {
     font-size: 40px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 35px;
+}
+
+p {
+    font-size: 22px;
 }
 
 img {
@@ -116,4 +125,12 @@ header a {
 
 .release {
     background-color: #1F1F1F;
+}
+
+/* play plus */
+
+.play-plus .plus-logo {
+    width: 100px;
+    object-fit: contain;
+    display: inline-block;
 }
