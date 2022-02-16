@@ -143,8 +143,7 @@ header .list_style a::marker {
     color: blue;
 }
 
-header .play-choose li {
-    border: 2px solid transparent;
+header .play-choose>li {
     padding: 0 0.8rem;
     text-align: center;
 }
@@ -153,9 +152,8 @@ header .play-choose a:hover {
     background-color: white;
 }
 
-header .play-choose li:hover {
-    border: 2px solid gray;
-
+header .play-choose>li:hover {
+    filter: drop-shadow(0 0 0.75rem gray);
 }
 
 header .list_style a:hover {
@@ -209,7 +207,7 @@ header .list_style a:hover {
 /* console */
 
 .thumbs .col {
-    padding: 1rem 2rem;
+    padding: 0rem 2rem;
     border-bottom: 2px solid transparent;
     filter: opacity(0.7);
     cursor: pointer;
@@ -264,17 +262,14 @@ header .list_style a:hover {
 
 .play-plus {
     background-color: #BEBCBB;
-
 }
 
-.play-plus .play-monthly {
-    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+.img-plus,
+.img-now {
+    object-fit: fill;
+    width: 90%;
+    height: 100%;
 
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
-    object-fit: cover;
 }
 
 /* discount */
@@ -287,14 +282,6 @@ header .list_style a:hover {
 
 .play-now {
     background-color: #161C3B;
-}
-
-.play-now .play-monthly {
-    background-image: url(../img/ps-now-april-featured-image-block.png);
-
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 
 /* social */
