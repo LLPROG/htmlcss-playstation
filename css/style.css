@@ -104,10 +104,8 @@ header .logo-sony img {
 }
 
 
-
 header a {
     color: black;
-
 }
 
 .navbar-nav>li>a {
@@ -118,7 +116,6 @@ header a {
     filter: opacity(1);
 }
 
-
 header .dropdown-toggle::after {
     content: "\f107";
     font-family: "Font Awesome 6 Free";
@@ -127,6 +124,7 @@ header .dropdown-toggle::after {
 
     border: none;
 }
+
 
 header .show.dropdown-toggle::after {
     transform: rotate(180deg);
@@ -143,25 +141,28 @@ header .list_style a::marker {
     color: blue;
 }
 
-header .play-choose>li {
-    padding: 0 0.8rem;
-    text-align: center;
-}
-
-header .play-choose a:hover {
-    background-color: white;
-}
-
-header .play-choose>li:hover {
-    filter: drop-shadow(0 0 0.75rem gray);
-}
-
 header .list_style a:hover {
     color: blue;
     background-color: white;
 }
 
+header .play-choose>li {
+    padding: 0 0.8rem;
+    text-align: center;
+}
 
+header .play-choose a {
+    background-color: white;
+}
+
+header .play-choose>li:hover {
+    filter: drop-shadow(0 0 0.75rem gray);
+    background-color: white;
+}
+
+header .play-choose a:hover {
+    background-color: white;
+}
 
 
 /* hero */
