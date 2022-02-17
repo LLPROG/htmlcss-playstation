@@ -103,7 +103,6 @@ header .logo-sony img {
     background-color: black;
 }
 
-
 header a {
     color: black;
 }
@@ -180,6 +179,7 @@ header .play-choose a:hover {
     width: 300px;
 
     margin-top: 15rem;
+
 }
 
 
@@ -265,10 +265,14 @@ header .play-choose a:hover {
     background-color: #BEBCBB;
 }
 
+.play-plus .col-6 {
+    flex: 1 0 auto;
+}
+
 .img-plus,
 .img-now {
     object-fit: fill;
-    width: 90%;
+    width: 100%;
     height: 100%;
 
 }
